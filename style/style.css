@@ -354,12 +354,14 @@ body{
     border-top: 1px solid rgba(0, 0, 0, 0.356);
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
     align-items: center;
+    height: 260px;
 }
 .bfootmain{
     width: 70%;
     display: flex;
     align-items: center;
     margin: auto;
+    height: 70%;
 }
 .beforitm1{
     width: 25%;
@@ -409,8 +411,12 @@ body{
     display: flex;
 }
 .iconlas{
-    color: #1b54ce;
-    background-color: #1b54ce;
+    background-color: #020816;
+    color: white;
+}
+.iconlas:hover{
+    color: black;
+    border: 0.5px solid black;
 }
 .lastfootclassitem{
     text-decoration: none;
@@ -423,7 +429,4 @@ body{
 }
 .lastfooter1 img{
     width: 180px;
-}
-.jjclass{
-    color: red;
 }
